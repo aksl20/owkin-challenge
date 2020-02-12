@@ -1,9 +1,10 @@
-pandas
+pandas==0.25.3
+statsmodels
 numpy
 matplotlib
 seaborn
 jupyterlab
-scikit-learn
+scikit-learn==0.21.3
 lifelines
 scikit-survival
 shap
