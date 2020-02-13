@@ -1,3 +1,4 @@
+joblib
 pandas==0.25.3
 statsmodels
 numpy
@@ -8,4 +9,4 @@ scikit-learn==0.21.3
 lifelines
 scikit-survival
 shap
-
+xgboost
