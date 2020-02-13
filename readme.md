@@ -2,10 +2,10 @@
 
 ## Prerequisite
 
-Vous aurez besoin des programmes suivants installés sur votre ordinateur :
+You will need following dependencies on your system:
 
 * [Git](http://git-scm.com/)
-* [python](https://www.python.org/downloads/) ou [anaconda](https://repo.continuum.io/)
+* [python](https://www.python.org/downloads/)
 
 ## Installation
 
@@ -15,10 +15,10 @@ Open a linux terminal and run the following commands:
 
 ```sh
   $ git clone <repository-url>
-  $ cd orfee && virtualenv -p python3 env
+  $ cd owkin-challenge && virtualenv -p python3 env
   $ source env/bin/activate
   $ pip install -r requirements.txt
-  $ jupyter notebook
+  $ jupyter lab
 ```
 
 __Docker__
@@ -26,7 +26,7 @@ __Docker__
 If Docker is available on your computer, you can run the following commands on your terminal:
 
 ```sh
-  $ git clone <repository-url> && cd orfee
+  $ git clone <repository-url> && cd owkin-challenge
   $ docker build -t lung-prediction .
   $ docker run -d -e "PORT=4242" -e "PASSWORD=owkin" -p 4242:4242 --name jupyter lung-prediction
 ```
